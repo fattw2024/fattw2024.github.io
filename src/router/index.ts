@@ -13,25 +13,13 @@ const routes = [
     component: () => import('@/views/ProgramView.vue')
   },
   {
-    path: '/participation',
-    component: () => import('@/views/ParticipationView.vue')
-  },
-  {
-    path: '/papers',
-    component: () => import('@/views/PapersView.vue')
-  },
-  {
     path: '/keynote/speakers',
     component: () => import('@/views/KeynoteSpeakersView.vue')
   },
   {
     path: '/committees',
     component: () => import('@/views/CommitteesView.vue')
-  },
-  {
-    path: '/attending',
-    component: () => import('@/views/AttendingView.vue')
-  }
+  } 
 ]
 
 const router = createRouter({
