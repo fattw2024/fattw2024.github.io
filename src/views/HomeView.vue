@@ -55,6 +55,7 @@
         https://fattw2024.github.io/#/</a
       >
     </div>
+    <p class="copy">© FATTW Conference Organizers</p>
   </div>
 </template>
 
