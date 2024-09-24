@@ -1,24 +1,56 @@
 <template>
   <div class="home">
-    <div class="title1 font-merri">FATTW 2024 (Workshop on Dependability Modeling and Design)</div>
-    <p class="pa pa-header p">"Dependability Modeling and Design" refers to the interaction between business needs and dependability technologies, utilizing the support and capabilities provided by information technology.</p>
-    <p class="pa pa-content p">As critical systems such as large high-performance computing cluster for Large Language Model (LLM) training and inference, industrial control systems, automobiles, and robots increasing in complexity, ensuring reliability, safety, and other dependability aspects like robustness, integrity, maintainability, and accountability has become a significant challenge for designers, manufacturers, owners, and operators.</p>
-    <p class="pa pa-content p">To address these challenges, advanced technologies, appropriate methodologies, powerful modeling languages and tools, and a shared conceptualization of dependability modeling and design are essential. The WDMD aims to bring together researchers and practitioners to exchange and discuss cutting-edge research and practical applications in the field of dependability modeling and design. This year, the workshop will focus on several key topics: conceptual models for dependability, digitalization in dependability design, software dependability, reliability for large-scale computing systems, reliability and safety of autonomous driving.</p>
+    <div class="title1 font-merri">
+      FATTW 2024: Future Advanced Testing Technology Workshop 2024
+    </div>
+    <p class="pa pa-header p">
+      Join us for FATTW 2024, a premier event dedicated to the latest advancements and innovations
+      in testing technology. In an era where software complexity is ever-increasing, the role of
+      advanced testing technologies has never been more critical. This workshop is dedicated to
+      exploring the forefront of software testing innovations, with a special focus on the
+      transformative impact of Large Language Models (LLMs).
+    </p>
 
-    <div class="title2 section-title">Conceptual Models for Dependability</div>
-    <p class="pa pa-header p">With technological advancements, the complexity of systems has increased, leading to more prominent dependability issues. The transition from closed to autonomous systems means that traditional dependability models are no longer applicable. We aim to develop new conceptual models for dependability considering human factors, specifications, implementations, environments, and requirements.</p>
+    <div class="title2 section-title">Why LLMs?</div>
+    <p class="pa pa-header p">
+      Large Language Models, such as GPT-4, have revolutionized various domains by leveraging their
+      ability to understand and generate human-like text. In the realm of software testing, LLMs
+      offer unprecedented capabilities:
+    </p>
+    <div class="pa pa-header p">
+      <ul>
+        <li>
+          Automated Test Case Generation: LLMs can automatically generate comprehensive test cases
+          from natural language requirements, significantly reducing manual effort and accelerating
+          the testing process.
+        </li>
+        <li>
+          Enhanced Bug Detection: By analyzing code and identifying potential issues, LLMs help in
+          early detection of bugs, ensuring higher software quality and reliability.
+        </li>
+        <li>
+          Intelligent Test Data Management: LLMs assist in creating and managing realistic test
+          data, which is crucial for effective testing.
+        </li>
+        <li>
+          Continuous Integration and Deployment (CI/CD): Integrating LLMs into CI/CD pipelines
+          enhances the automation of testing tasks, leading to faster and more reliable software
+          releases.
+        </li>
+      </ul>
+    </div>
 
-    <div class="title2 section-title">Digitalization Design for Dependability</div>
-    <p class="pa pa-header p">Engineering for system dependability is crucial to managing system failures throughout its lifecycle. As systems grow in complexity, developing dependability capabilities also becomes more challenging. We seek to establish a digital engineering system for dependability that offers modeled and automated dependability analyses across all phases—concept, planning, development, and verification—resulting in an interpretable, inheritable, and reusable dependability process technology.</p>
+    <p class="pa pa-header p">
+      This workshop is designed for software testing professionals, researchers, and enthusiasts who
+      are eager to explore cutting-edge technologies and methodologies that are shaping the future
+      of software quality assurance.
+    </p>
 
-    <div class="title2 section-title">Software Dependability</div>
-    <p class="pa pa-header p">As software systems scale and become more intricate, guaranteeing their dependability becomes increasingly challenging. This is further compounded in complex cloud environments where issues such as scalability, fault detection, fault tolerance, and deployment need addressing. Modern applications, especially those in critical fields like digital healthcare and precision manufacturing, demand exceptionally high dependability (up to 99.9999%). We expect to develop industry-standard metrics, evaluation models, design principles, and verification methods to ensure both software dependability and the reliability of cloud-based applications and services.</p>
-
-    <div class="title2 section-title">Reliability for Large-scale Computing and Networking Systems</div>
-    <p class="pa pa-header p">With the rapid advancement of artificial intelligence, large-scale computing and networking systems are essential for training and inference tasks. These systems must process large datasets in high-performance computing and communication environments while ensuring reliability, computational speed, and accuracy. This call for papers seeks recent research on reliability assessment, fault detection and recovery, performance optimization, and related technologies and methods in large-scale computing and networking systems (e.g., clusters for LLM training and inference, cloud computing platform, etc. ) to enhance the robustness and maintainability.</p>
-
-    <div class="title2 section-title">Reliability and Safety of Autonomous Driving</div>
-    <p class="pa pa-header p">Autonomous driving technologies promise transformative changes in transportation, offering greater safety and efficiency. However, ensuring their reliability and safety is crucial by addressing challenges in real-time decision-making, fault tolerance, and sensor fusion. Robust testing and validation are essential to prevent accidents and gain public trust, paving the way for widespread adoption. This topic focuses on methods and technologies for assessing and improving the dependability of autonomous driving systems, addressing challenges in real-time decision-making, fault tolerance, and human-machine interaction.</p>
+    <div style="color: #000; font-size: 1.8rem">
+      For more information, please contact us at
+      <a href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> or visit our website at
+      <a target="_blank" href="https://fattw2024.github.io/#/"> https://fattw2024.github.io/#/</a>
+    </div>
   </div>
 </template>
 

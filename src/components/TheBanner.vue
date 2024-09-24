@@ -2,16 +2,18 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <h2 class="title font-lato">FATTW 2024: 3rd International Workshop on </h2>
-      <h2 class="title font-lato">Dependability Modeling and Design</h2>
-      <div class="subtitle">Co-located with <a href="https://issre.github.io/2024/" target="_blank">ISSRE 2024</a></div>
-      <div class="tip font-merri">Tsukuba, Japan, October 28th - 31st, 2024</div>
+      <h2 class="title font-lato">FATTW 2024: Future Advanced Testing Technology Workshop 2024</h2>
+      <h2 class="title font-lato">Testing Technology and Practice in the age of LLM</h2>
+      <div class="tip font-merri">Tokyo, Japan, November 1st – 2nd, 2024</div>
+      <div class="tip font-merri">Location —— Hotel New Otani Makuhari</div>
+      <div class="tip font-merri">
+        Welcome to the Future Advanced Testing Technology Workshop 2024!
+      </div>
     </div>
   </div>
 </template>
 
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <style lang="less" scoped>
 .banner {
@@ -28,7 +30,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/hosting_city-3.jpg') no-repeat center / cover;
+    background: url('@/assets/image/head.jpg') no-repeat center / cover;
 
     &::before {
       content: '';
@@ -42,7 +44,7 @@
       opacity: 0.5;
     }
   }
-  
+
   .text {
     max-width: 100rem;
     padding: 0 3rem;
