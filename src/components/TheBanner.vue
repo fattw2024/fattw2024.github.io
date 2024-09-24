@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <h2 class="title font-lato">WDMD 2024: 3rd International Workshop on </h2>
+      <h2 class="title font-lato">FATTW 2024: 3rd International Workshop on </h2>
       <h2 class="title font-lato">Dependability Modeling and Design</h2>
       <div class="subtitle">Co-located with <a href="https://issre.github.io/2024/" target="_blank">ISSRE 2024</a></div>
       <div class="tip font-merri">Tsukuba, Japan, October 28th - 31st, 2024</div>

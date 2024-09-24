@@ -6,7 +6,7 @@
       router
       :default-active="route.path"
     >
-      <div class="logo">WDMD 2024</div>
+      <div class="logo">FATTW 2024</div>
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
         <el-menu-item index="/program">PROGRAM</el-menu-item>
