@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <div class="title1 font-merri">
-      FATTW 2024: Future Advanced Testing Technology Workshop 2024
+    <div class="title1 font-merri">Testing Technology and Practice in the age of LLM</div>
+    <div class="title2 font-merri">
+      Welcome to the Future Advanced Testing Technology Workshop 2024!
     </div>
     <p class="pa pa-header p">
       Join us for FATTW 2024, a premier event dedicated to the latest advancements and innovations
@@ -46,10 +47,13 @@
       of software quality assurance.
     </p>
 
-    <div style="color: #000; font-size: 1.8rem">
+    <div style="margin-top: 30px; color: #000; font-size: 1.6rem">
       For more information, please contact us at
-      <a href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> or visit our website at
-      <a target="_blank" href="https://fattw2024.github.io/#/"> https://fattw2024.github.io/#/</a>
+      <a class="link" href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> or visit our
+      website at
+      <a class="link" target="_blank" href="https://fattw2024.github.io/#/">
+        https://fattw2024.github.io/#/</a
+      >
     </div>
   </div>
 </template>

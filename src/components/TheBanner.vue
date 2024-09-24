@@ -3,11 +3,13 @@
     <div class="background"></div>
     <div class="text">
       <h2 class="title font-lato">FATTW 2024: Future Advanced Testing Technology Workshop 2024</h2>
-      <h2 class="title font-lato">Testing Technology and Practice in the age of LLM</h2>
+      <!-- <h2 class="title font-lato">Testing Technology and Practice in the age of LLM</h2>  -->
       <div class="tip font-merri">Tokyo, Japan, November 1st – 2nd, 2024</div>
-      <div class="tip font-merri">Location —— Hotel New Otani Makuhari</div>
       <div class="tip font-merri">
-        Welcome to the Future Advanced Testing Technology Workshop 2024!
+        <el-icon style="margin-top: 5px"><Location /></el-icon>
+        <a target="_blank" href="https://www.newotani.co.jp/en/makuhari/" class="location"
+          >Hotel New Otani Makuhari</a
+        >
       </div>
     </div>
   </div>
@@ -17,7 +19,7 @@
 
 <style lang="less" scoped>
 .banner {
-  height: 40rem;
+  height: 30rem;
   position: relative;
   display: flex;
   justify-content: center;

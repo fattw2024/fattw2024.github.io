@@ -12,7 +12,7 @@
     <p class="pa-content p">Hironori Takeuchi, Musashi University, Japan</p>
 
     <div class="title2 section-title">Contact Us</div>
-    <p class="pa-header p"><mark>FATTW2024@gmail.com</mark></p>
+    <p class="pa-header p">FATTW2024@gmail.com</p>
     <p class="pa-content p">
       For all questions regarding workshop, please feel free to contact us.
     </p>

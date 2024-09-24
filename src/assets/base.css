@@ -88,3 +88,7 @@ body {
 .font-merri {
   font-family: Merriweather, Arial;
 }
+
+.link{
+  color: rgba(0, 0, 255, 0.712);
+}
