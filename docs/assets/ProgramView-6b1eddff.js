@@ -1,0 +1,1 @@
+import{d as a,o,c as s,a as t,_}from"./index-8d1ce6f3.js";const r={class:"program"},c=a({__name:"ProgramView",setup(n){return(d,e)=>(o(),s("div",r,e[0]||(e[0]=[t("p",{class:"pa-content p"},"TBD",-1)])))}});const m=_(c,[["__scopeId","data-v-db1c8dad"]]);export{m as default};
