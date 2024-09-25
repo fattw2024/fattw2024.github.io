@@ -5,47 +5,31 @@
       Welcome to the Future Advanced Testing Technology Workshop 2024!
     </div>
     <p class="pa pa-header p">
-      Join us for FATTW 2024, a premier event dedicated to the latest advancements and innovations
-      in testing technology. In an era where software complexity is ever-increasing, the role of
-      advanced testing technologies has never been more critical. This workshop is dedicated to
-      exploring the forefront of software testing innovations, with a special focus on the
-      transformative impact of Large Language Models (LLMs).
+      Join us for FATTW 2024, a premier event dedicated to the latest advancements and innovations in testing technology. In an era where software complexity is ever-increasing, the role of advanced testing technologies has never been more critical. This workshop is dedicated to exploring the forefront of software testing innovations.
     </p>
 
-    <div class="title2 section-title">Why LLMs?</div>
+    <div class="title2 section-title">Why Join us?</div>
     <p class="pa pa-header p">
-      Large Language Models, such as GPT-4, have revolutionized various domains by leveraging their
-      ability to understand and generate human-like text. In the realm of software testing, LLMs
-      offer unprecedented capabilities:
+      This workshop promises to be a pivotal event for professionals and researchers in the field of advanced testing technologies. Organized by a distinguished committee of professors from renowned Japanese universities, this workshop aims to explore cutting-edge advancements and practical applications in testing technologies, particularly in relation to Large Language Models (LLM).
     </p>
+
+    <div class="title2 section-title">Topics of Interest:</div>
     <div class="pa pa-header p">
       <ul>
         <li>
-          Automated Test Case Generation: LLMs can automatically generate comprehensive test cases
-          from natural language requirements, significantly reducing manual effort and accelerating
-          the testing process.
+          <strong>AI Testing Technology Research and Practices.</strong> This segment will delve into automated and autonomous testing methods, crucial for enhancing efficiency and accuracy in AI systems. Additionally, discussions on data management for LLM and the importance of explainable AI will provide valuable insights into making AI systems more transparent and trustworthy.
         </li>
         <li>
-          Enhanced Bug Detection: By analyzing code and identifying potential issues, LLMs help in
-          early detection of bugs, ensuring higher software quality and reliability.
+          <strong>Testing AI Technologies Research, </strong>which will cover AI performance testing and safety evaluation. These sessions are designed to address the challenges of ensuring AI systems perform reliably and safely, which is critical as AI becomes increasingly integrated into various industries.
         </li>
         <li>
-          Intelligent Test Data Management: LLMs assist in creating and managing realistic test
-          data, which is crucial for effective testing.
-        </li>
-        <li>
-          Continuous Integration and Deployment (CI/CD): Integrating LLMs into CI/CD pipelines
-          enhances the automation of testing tasks, leading to faster and more reliable software
-          releases.
+          <strong>Systematic Evaluation Technologies,</strong> focusing on system reliability evaluation and software auditing tools for system networks. This segment will provide participants with practical tools and methodologies to assess and improve the reliability and security of complex systems.
         </li>
       </ul>
-    </div>
-
-    <p class="pa pa-header p">
-      This workshop is designed for software testing professionals, researchers, and enthusiasts who
-      are eager to explore cutting-edge technologies and methodologies that are shaping the future
-      of software quality assurance.
+      <p class="pa pa-header p">
+          Participants can join the workshop via Zoom Livestream Platforms, making it accessible to a global audience. Supported by IPSJ-SIGSE, this event is set to be a cornerstone for those looking to stay at the forefront of testing technology advancements.
     </p>
+    </div>
 
     <div style="margin-top: 30px; color: #000; font-size: 1.6rem">
       For more information, please contact us at
@@ -55,7 +39,6 @@
         https://fattw2024.github.io/#/</a
       >
     </div>
-    <p class="copy">© FATTW Conference Organizers</p>
   </div>
 </template>
 
@@ -77,4 +60,9 @@
     margin: 1.6rem 0;
   }
 }
+strong {
+    font-weight: 700; // 或者使用 'bold'
+    color: #333; // 可以根据需要调整颜色
+  }
+  
 </style>

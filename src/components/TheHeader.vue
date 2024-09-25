@@ -32,6 +32,10 @@ const route = useRoute()
   .logo {
     height: 58px;
     line-height: 58px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a365d; // 深蓝色
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); // 添加轻微阴影以增强可读性
   }
 
   .menu-right {
