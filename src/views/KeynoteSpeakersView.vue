@@ -37,7 +37,7 @@ export default {
       speakers: [
         {
           name: "TBD",
-          photo: 'https://via.placeholder.com/300x300.png?text=TBD',
+          photo: 'tbd.png',
           title: "TBD",
           keynote: "TBD",
           abstract: "TBD",
