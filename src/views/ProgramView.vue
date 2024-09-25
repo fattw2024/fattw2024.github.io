@@ -1,107 +1,125 @@
 <template>
   <div class="program">
-    <p class="pa-content p">TBD</p>
-   <!--<<div class="date">Tuesday, October 10th</div>
-    <el-table
-      :data="tableData"
-      border
-      style="width: 100%;"
-      header-cell-class-name="header"
-      :cell-class-name="cellClassName"
-      :span-method="spanMethod"
-    >
-      <el-table-column prop="time" label="Begin-End" header-align="center" width="140px">
-        <template #default="scope">
-          <span>
-            <span>{{ scope.row.startTime }}</span>
-            <span>-</span>
-            <span>{{ scope.row.endTime }}</span>
-          </span>
-        </template>
-      </el-table-column>
-      <el-table-column prop="subject" label="Subject" header-align="center">
-        <template #default="scope">
-          <div v-if="scope.row.tip" class="tip">{{ scope.row.tip }}</div>
-          <template v-else>
-            <div class="keynote">{{ scope.row.title }}</div>
-            <i v-if="scope.row.speaker" class="speaker">{{ scope.row.speaker }}</i>
+    <div v-for="(day, index) in programData" :key="index">
+      <div class="date">{{ day.date }}</div>
+      <el-table
+        :data="day.events"
+        border
+        style="width: 100%;"
+        header-cell-class-name="header"
+        :cell-class-name="cellClassName"
+        :span-method="spanMethod"
+      >
+        <el-table-column prop="time" label="Begin-End" header-align="center" width="140px">
+          <template #default="scope">
+            <span>
+              <span>{{ scope.row.startTime }}</span>
+              <span>-</span>
+              <span>{{ scope.row.endTime }}</span>
+            </span>
           </template>
-        </template>
-      </el-table-column>
-    </el-table>
-    --> 
+        </el-table-column>
+        <el-table-column prop="subject" label="Subject" header-align="center">
+          <template #default="scope">
+            <div v-if="scope.row.tip" class="tip">{{ scope.row.tip }}</div>
+            <template v-else>
+              <div v-for="(item, itemIndex) in scope.row.items" :key="itemIndex">
+                <div class="keynote">{{ item.title }}</div>
+                <i v-if="item.speaker" class="speaker">{{ item.speaker }}</i>
+              </div>
+            </template>
+          </template>
+        </el-table-column>
+      </el-table>
+    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
 import type { TableColumnCtx } from 'element-plus'
 
-interface Data {
+interface EventItem {
+  title: string
+  speaker?: string
+}
+
+interface Event {
   startTime: string
   endTime: string
-  topic?: string
-  speaker?: string
-  title?: string
+  items?: EventItem[]
   tip?: string
 }
 
-interface MethodProps {
-  row: Data
-  column: TableColumnCtx<Data>
-  rowIndex: number
-  columnIndex: number
+interface DayProgram {
+  date: string
+  events: Event[]
 }
 
-const tableData: Data[] = [
-  { startTime: '10:30', endTime: '11:00', speaker: 'Prof. Joseph Sifakis (Verimag, Université Grenoble Alpes)', title: 'Keynote 1: Trustworthy Intelligent Systems – A Daunting Challenge' },
-  { startTime: '11:00', endTime: '11:30', speaker: 'Prof. Zheng Zheng (Beihang University)', title: 'Keynote 2: Reliability and Testing of Reinforcement Learning Systems' },
-  { startTime: '11:30', endTime: '12:00', speaker: 'Prof. Domenico Cotroneo (University of Naples Federico II)', title: 'Keynote 3: Unveiling the Veil: Towards the Trustworthiness of AI Code Generators' },
-  { startTime: '12:00', endTime: '12:30', title: 'Panel: How Large Language Models help in Software Dependability Engineering' },
-  { startTime: '12:30', endTime: '14:00', tip: 'Lunch Break' },
+const programData: DayProgram[] = [
+  {
+    date: 'Friday, November 1st, 2024',
+    events: [
+      { startTime: '09:30', endTime: '10:00', items: [{ speaker: 'TBD', title: 'Keynote 1' }] },
+      { startTime: '10:00', endTime: '10:30', items: [{ speaker: 'TBD', title: 'Keynote 2' }] },
+      { startTime: '10:30', endTime: '11:00', tip: 'Coffee Break' },
+      { startTime: '11:00', endTime: '13:00', items: [
+        { title: 'Session 1: TBD' },
+        { speaker: 'TBD', title: 'Speech1' },
+        { speaker: 'TBD', title: 'Speech2' },
+        { title: 'Panel（70min）' }
+      ]},
+      { startTime: '13:00', endTime: '14:30', tip: 'Lunch Break' },
+      // 下午的日程暂时保持不变
+      { startTime: '14:30', endTime: '16:00', items: [
+        { title: 'Session 2: TBD' },
+        { speaker: 'TBD', title: 'Speech3' },
+        { speaker: 'TBD', title: 'Speech4' },
+        { title: 'Q&A' }
+      ]},
+      { startTime: '16:00', endTime: '16:30', tip: 'Coffee Break' },
+      { startTime: '16:30', endTime: '18:30', items: [
+        { title: 'Session 3: TBD' },
+        { speaker: 'TBD', title: 'Speech5' },
+        { speaker: 'TBD', title: 'Speech6' },
+        { speaker: 'TBD', title: 'Speech7' },
+        { title: 'Q&A' }
+      ]},
+      { startTime: '18:30', endTime: '21:00', tip: 'Dinner' }
+    ]
+  },
 
-  { startTime: '14:00', endTime: '16:35', tip: 'Doctoral Symposium' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Jiyue Huang', title: 'Training-time Attacks and Defenses of Distributed Learning' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Yuning Jiang', title: 'Data-driven Design and Operation of Complex Intelligent Systems: An Interplay between Control, Learning and Optimization' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Baiwei Guo', title: 'Safe Zeroth-Order Optimization Using Local Proxies' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Ni Dang', title: 'Distributed Stochastic Model Predictive Control for a Microscopic Interactive Traffic Model' },
-  { startTime: '14:00', endTime: '16:35', tip: 'Tea Break' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Fenghua Wang', title: 'Robustness and Recoverability of Network Controllability with respect to Node Removals' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Xinpeng Hong', title: 'In-network machine learning for limit order books' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Chi Hong', title: 'Knowledge Extraction in Machine Learning' },
-  { startTime: '14:00', endTime: '16:35', speaker: 'Xiao Wang', title: 'Safe Reinforcement Learning for Autonomous Vehicles' },
+  {
+    date: 'Saturday, November 2nd, 2024',
+    events: [
+    { startTime: '09:30', endTime: '11:00', items: [
+        { title: 'Session 4: TBD' },
+        { speaker: 'TBD', title: 'Speech8' },
+        { speaker: 'TBD', title: 'Speech9' },
+        { title: 'Q&A' }
+      ]},
 
-  { startTime: '16:35', endTime: '17:35', tip: 'Accepted Paper Presentation' },
-  { startTime: '16:35', endTime: '17:35', speaker: 'Shiming Liu, Qunli Zhang, Wei Li, Siyun Yao, Yucheng Mu and Zheng Hu', title: 'Runtime operational design domain monitoring of static road geometry for automated vehicles' },
-  { startTime: '16:35', endTime: '17:35', speaker: 'Xiaolei Yu, Kai Jia, Wenhua Hu, Jing Tian and Jianwen Xiang', title: 'Black-Box Test Case Prioritization Using Log Analysis and Test Case Diversity' },
-  { startTime: '16:35', endTime: '17:35', speaker: 'Peng Wang, Qingyang Xu, Siyun Yao, Xiangfei Wu, Qunli Zhang, et al.', title: 'A robust online extrinsic calibration method for GNSS-RTK and IMU system and vehicle setups' },
-  { startTime: '16:35', endTime: '17:35', speaker: 'Wenyi Fang, Hao Zhang, Ziyu Gong, Longbin Zeng, Xuhui Lu, Biao Liu, et al.', title: 'A Survey of Approaches to Enhance Training Dependability in Large Language Models' },
-  { startTime: '17:35', endTime: '', tip: 'Closing and Dinner' },
+      { startTime: '11:00', endTime: '11:30', tip: 'Coffee Break' },
+
+      { startTime: '11:30', endTime: '13:00', items: [
+        { title: 'Session 5: TBD' },
+        { speaker: 'TBD', title: 'Speech10' },
+        { speaker: 'TBD', title: 'Speech11' },
+        { title: 'Panel（50min）' }
+      ]},
+      { startTime: '13:00', endTime: '13:15', items: [{ title: 'Close Speech 15min' }] },
+      { startTime: '13:15', endTime: '14:30', tip: 'Lunch' },
+    ]
+  }
 ]
 
-const cellClassName = ({ rowIndex, columnIndex }: MethodProps) => {
-  if (rowIndex === 5 || rowIndex === 11 || rowIndex === 21) {
-    if (columnIndex > 0) {
-      return 'rest'
-    }
-  } else if (rowIndex === 6 || rowIndex === 16) {
-    if (columnIndex > 0) {
-      return 'title'
-    }
-  }
+const cellClassName = ({ row, columnIndex }: { row: Event, columnIndex: number }) => {
+  if (columnIndex === 0) return '' // 时间列不设置背景色
+  if (row.tip) return 'rest'
+  return 'session' // 所有非休息时间的事件都设置为 'session' 类
 }
 
-const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
-  if (columnIndex === 0) {
-    if (rowIndex === 6) {
-      return [10, 1]
-    } else if (rowIndex > 6 && rowIndex < 16) {
-      return [0, 0]
-    } else if (rowIndex === 16) {
-      return [5, 1]
-    } else if (rowIndex > 16 && rowIndex < 21) {
-      return [0, 0]
-    }
-  }
+const spanMethod = ({ row, column, rowIndex, columnIndex }: { row: Event, column: TableColumnCtx<Event>, rowIndex: number, columnIndex: number }) => {
+  // 根据需要实现合并单元格的逻辑
 }
 </script>
 
@@ -110,8 +128,10 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   .date {
     font-weight: bold;
     line-height: 4.5rem;
-    background-color: #b86a6a;
+    background-color: #34495e; // 更改为深蓝色
+    color: #ffffff; // 添加白色文字以提高可读性
     padding: 0 1rem;
+    margin-top: 2rem;
   }
 
   :deep(.header) {
@@ -125,17 +145,20 @@ const spanMethod = ({ rowIndex, columnIndex } : MethodProps) => {
   :deep(.rest) {
     background-color: #c0e1ec;
   }
-  :deep(.title) {
-    background-color: #C2C2C2;
+  :deep(.multiple-events) {
+    background-color: #f0f0f0;
   }
 
   .keynote {
     color: #000;
     font-size: 1.6rem;
+    margin-bottom: 0.5rem;
   }
 
   .speaker {
     color: #333;
+    display: block;
+    margin-bottom: 1rem;
   }
 
   .tip {

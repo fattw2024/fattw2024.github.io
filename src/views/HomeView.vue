@@ -33,11 +33,7 @@
 
     <div style="margin-top: 30px; color: #000; font-size: 1.6rem">
       For more information, please contact us at
-      <a class="link" href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> or visit our
-      website at
-      <a class="link" target="_blank" href="https://fattw2024.github.io/#/">
-        https://fattw2024.github.io/#/</a
-      >
+      <a class="link" href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> 
     </div>
   </div>
 </template>

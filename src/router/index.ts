@@ -21,7 +21,7 @@ const routes = [
     component: () => import('@/views/PapersView.vue')
   },
   {
-    path: '/keynote/speakers',
+    path: '/speakers',
     component: () => import('@/views/KeynoteSpeakersView.vue')
   },
   {
@@ -31,6 +31,14 @@ const routes = [
   {
     path: '/attending',
     component: () => import('@/views/AttendingView.vue')
+  },
+  {
+    path: '/live',
+    component: () => import('@/views/LIVEView.vue')
+  },
+  {
+    path: '/attendee-guide',
+    component: () => import('@/views/ATTENDEE GUIDEiew.vue')
   }
 ]
 
