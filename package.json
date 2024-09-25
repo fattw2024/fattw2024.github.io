@@ -10,7 +10,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "postbuild": "rm -rf docs && cp -r dist docs",
+    "postbuild": "cp -r docs/.git dist && rm -rf docs && mv dist docs",
     "deploy": "npm run build && npm run postbuild"
   },
   "dependencies": {
