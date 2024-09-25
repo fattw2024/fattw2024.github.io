@@ -1,7 +1,7 @@
 <template>
   <div class="program">
     <p class="pa-content p">TBD</p>
-    <!-- <div class="date">Tuesday, October 10th</div>
+   <!--<<div class="date">Tuesday, October 10th</div>
     <el-table
       :data="tableData"
       border
@@ -28,7 +28,8 @@
           </template>
         </template>
       </el-table-column>
-    </el-table> -->
+    </el-table>
+    --> 
   </div>
 </template>
 

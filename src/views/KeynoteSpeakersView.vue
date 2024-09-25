@@ -1,7 +1,160 @@
 <template>
   <div class="keynote-speakers">
+    <!-- 主标题 -->
+    <h1 class="title1 font-merri">Keynote Speakers</h1>
+    
+    <!-- 遍历speakers数组，为每个演讲者创建一个部分 -->
+    <div v-for="(speaker, index) in speakers" :key="index" class="speaker-section">
+      <div class="speaker-content">
+        <!-- 演讲者照片 -->
+        <div class="speaker-photo">
+          <img :src="getImageUrl(speaker.photo)" :alt="speaker.name">
+        </div>
+        <!-- 演讲者信息 -->
+        <div class="speaker-info">
+          <h2 class="speaker-name">{{ speaker.name }}</h2>
+          <p><span class="bold">Title:</span> {{ speaker.title }}</p>
+          <p><span class="bold">Keynotes:</span> {{ speaker.keynote }}</p>
+          <p><span class="bold">Abstract:</span> <span class="italic">{{ speaker.abstract }}</span></p>
+        </div>
+      </div>
+      <!-- 演讲者简历 -->
+      <div class="speaker-bio">
+        <p><span class="bold">Bio:</span> {{ speaker.bio }}</p>
+      </div>
+      <!-- 如果不是最后一个演讲者，添加分隔线 -->
+      <el-divider v-if="index < speakers.length - 1" />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      // 演讲者数据数组
+      speakers: [
+        {
+          name: "Abdulmotaleb El Saddik",
+          photo: 'Abdulmotaleb El Saddik.png',
+          title: "Fellow of RSC, Fellow of EIC, IEEE Fellow",
+          keynote: "TBD",
+          abstract: "TBD",
+          bio: "Abdulmotaleb El Saddik (FRSC, FIEEE, FCAE, FEIC), is Distinguished University Professor and University Research Chair in the School of Electrical Engineering and Computer Science at the University of Ottawa. He is an internationally-recognized scholar who has made strong contributions to the knowledge and understanding of multimedia computing, communications and applications.Prof. El Saddik is a Fellow of the Royal Society of Canada (2020) a Fellow of the IEEE (2009), for his contributions to interactive haptic audio visual systems. He was also elected Fellow of the Canadian Academy of Engineering (2010) and Fellow of the Engineering Institute of Canada (2010). He is leading researcher in smart health, Internet of things, haptics, social media, and collaborative and ambient interactive media and communications (smart cities). He has authored and co-authored three- patents, five books (Haptics Technologies: Bringing Touch to Multimedia; Interactive Multimedia Learning; Open Java; Haptics Rendering and Applications; and Advances in Multimedia Modeling part 1&2 (2013)) and more than 550 publications."
+        },
+        // ... 其他演讲者数据 ...
+      ]
+    };
+  },
+  methods: {
+    // 获取图片URL的方法
+    getImageUrl(name) {
+      return new URL(`../assets/image/photos/${name}`, import.meta.url).href
+    }
+  }
+};
+</script>
+
+<style lang="less" scoped>
+.keynote-speakers {
+  color: #333;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  // 主标题样式
+  .title1 {
+    color: #1a365d;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  // 每个演讲者部分的样式
+  .speaker-section {
+    margin-bottom: 2rem;
+  }
+
+  // 演讲者内容布局
+  .speaker-content {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  // 演讲者照片样式
+  .speaker-photo {
+    flex: 0 0 200px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  }
+
+  // 演讲者信息样式
+  .speaker-info {
+    flex: 1;
+    p {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+  }
+
+  // 演讲者姓名样式
+  .speaker-name {
+    color: #2a4365;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  // 演讲者简历样式
+  .speaker-bio {
+    margin-top: 1rem;
+    line-height: 1.4;
+  }
+
+  // 粗体文本样式
+  .bold {
+    font-weight: bold;
+    color: #2c5282;
+  }
+
+  // 斜体文本样式
+  .italic {
+    font-style: italic;
+  }
+
+  // 分隔线样式
+  .el-divider {
+    margin: 2rem 0;
+  }
+}
+
+// 响应式布局：在小屏幕上调整布局
+@media (max-width: 768px) {
+  .keynote-speakers {
+    .speaker-content {
+      flex-direction: column;
+    }
+
+    .speaker-photo {
+      margin-bottom: 1rem;
+    }
+  }
+}
+</style>
+
+
+<!--
+<template>
+  <div class="keynote-speakers">
     <div class="title1 font-merri">Keynote Speakers</div>
-    <!-- <div class="title2 section-title">Joseph Sifakis, Verimag</div>
+    <div class="title2 section-title">Joseph Sifakis, Verimag</div>
 
     <div class="content">
       <div class="pa">
@@ -103,7 +256,7 @@
 
     <el-divider />
     
-    <div class="title2 section-title">Ryan Cotterell, ETH Zürich</div> -->
+    <div class="title2 section-title">Ryan Cotterell, ETH Zürich</div> 
     <p class="pa-content p">TBD</p>
   </div>
 </template>
@@ -138,3 +291,4 @@
   }
 }
 </style>
+-->
