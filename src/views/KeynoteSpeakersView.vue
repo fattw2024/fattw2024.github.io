@@ -25,6 +25,7 @@
       <!-- 如果不是最后一个演讲者，添加分隔线 -->
       <el-divider v-if="index < speakers.length - 1" />
     </div>
+    <h1 class="title1 font-merri">Topics Speakers</h1>
   </div>
 </template>
 
@@ -35,12 +36,12 @@ export default {
       // 演讲者数据数组
       speakers: [
         {
-          name: "Abdulmotaleb El Saddik",
-          photo: 'Abdulmotaleb El Saddik.png',
-          title: "Fellow of RSC, Fellow of EIC, IEEE Fellow",
+          name: "TBD",
+          photo: 'https://via.placeholder.com/300x300.png?text=TBD',
+          title: "TBD",
           keynote: "TBD",
           abstract: "TBD",
-          bio: "Abdulmotaleb El Saddik (FRSC, FIEEE, FCAE, FEIC), is Distinguished University Professor and University Research Chair in the School of Electrical Engineering and Computer Science at the University of Ottawa. He is an internationally-recognized scholar who has made strong contributions to the knowledge and understanding of multimedia computing, communications and applications.Prof. El Saddik is a Fellow of the Royal Society of Canada (2020) a Fellow of the IEEE (2009), for his contributions to interactive haptic audio visual systems. He was also elected Fellow of the Canadian Academy of Engineering (2010) and Fellow of the Engineering Institute of Canada (2010). He is leading researcher in smart health, Internet of things, haptics, social media, and collaborative and ambient interactive media and communications (smart cities). He has authored and co-authored three- patents, five books (Haptics Technologies: Bringing Touch to Multimedia; Interactive Multimedia Learning; Open Java; Haptics Rendering and Applications; and Advances in Multimedia Modeling part 1&2 (2013)) and more than 550 publications."
+          bio: "TBD"
         },
         // ... 其他演讲者数据 ...
       ]

@@ -2,8 +2,9 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <h2 class="title font-lato">FATTW 2024: Future Advanced Testing Technology Workshop 2024</h2>
-      <!-- <h2 class="title font-lato">Testing Technology and Practice in the age of LLM</h2>  -->
+      <h2 class="title font-lato">Future Advanced Testing Technology Workshop</h2>
+
+      <h4 class="subtitle">Testing Technology and Practice in the age of LLM</h4>            <!-- <h2 class="title font-lato">Testing Technology and Practice in the age of LLM</h2>  -->
       <div class="tip font-merri">Tokyo, Japan, November 1st – 2nd, 2024</div>
       <div class="tip font-merri">
         <el-icon><Location /></el-icon>
@@ -49,6 +50,11 @@
       opacity: 0.5;
     }
   }
+
+  .subtitle {
+  font-size: 0.8em; /* 或者使用具体的像素值，如 16px */
+  font-weight: normal; /* 可选，使字体看起来更细 */
+}
 
   .text {
     max-width: 100rem;
