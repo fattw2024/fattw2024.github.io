@@ -3,8 +3,6 @@
     <div class="title1 font-merri">Organizing Committee</div>
     <div class="title2 section-title">General Chair:</div>
     <p class="pa-header p">Hironori Washizaki, Waseda University, Japan</p>
-    <p class="title2 section-title">Co-Chair:</p>
-    <p class="pa-content p">Fumio Machida, University of Tsukuba, Japan</p>
 
     <div class="title2 section-title">Committee:</div>
     <p class="pa-header p">Naoyasu Ubayashi, Waseda University, Japan</p>
