@@ -1,7 +1,7 @@
 <template>
   <div class="live-view">
     <h1>FATTW 2024 Live Session</h1>
-    <p>Welcome to our live session. Join us on Zoom for interactive participation.</p>
+    <p>Welcome to our live session. Join us on Zoom to attend our conference.</p>
     
     <div class="zoom-section">
       <h2>Join Zoom Meeting</h2>
