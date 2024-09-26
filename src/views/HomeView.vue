@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="title1 font-merri">Testing Technology and Practice in the age of LLM</div>
+    <!--<div class="title1 font-merri">Testing Technology and Practice in the age of LLM</div>-->
     <div class="title2 font-merri">
       Welcome to the Future Advanced Testing Technology Workshop 2024!
     </div>

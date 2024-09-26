@@ -25,7 +25,7 @@
       <!-- 如果不是最后一个演讲者，添加分隔线 -->
       <el-divider v-if="index < speakers.length - 1" />
     </div>
-    <h1 class="title1 font-merri">Topics Speakers</h1>
+    <h1 class="title1 font-merri">Topic Speakers</h1>
   </div>
 </template>
 
