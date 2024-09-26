@@ -6,7 +6,9 @@
       router
       :default-active="route.path"
     >
-      <div class="logo">FATTW 2024</div>
+      <div class="logo">
+        <img src="@/assets/image/logo.png" alt="FATTW 2024 Logo" class="logo-image">
+      </div>
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
         <el-menu-item index="/program">PROGRAM</el-menu-item>       
@@ -33,11 +35,14 @@ const route = useRoute()
 
   .logo {
     height: 58px;
-    line-height: 58px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1a365d; // 深蓝色
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); // 添加轻微阴影以增强可读性
+    display: flex;
+    align-items: center;
+
+    .logo-image {
+      height: 40px; // 调整这个值以适应您的图片和设计需求
+      width: auto;
+      object-fit: contain;
+    }
   }
 
   .menu-right {
