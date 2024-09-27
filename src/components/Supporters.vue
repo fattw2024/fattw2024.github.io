@@ -10,7 +10,7 @@
         <div class="item">Company1</div>
         <div class="item">Company2</div>
         <div class="item">Company3</div>
-        <img class="item" src="../assets/huawei.jpg" alt="huawei" />
+        <img class="item" src="../assets/huawei.png" alt="huawei" />
         <div class="item">Company4</div>
         <div class="item">Company5</div>
         <div class="item">Company6</div>
@@ -49,16 +49,18 @@
     }
     .list {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
       .item {
-        flex: 1;
-        min-width: 200px;
-        border: solid 1px #d1d4e4;
-        padding: 20px 10px;
+        flex: 0 0 25%;
+        max-width: 25%;
+        height: 150px;
+        border: solid 1px #e0e5fa;
+        padding: 30px;
+        cursor: pointer;
       }
       img {
         object-fit: contain;
+        max-width: 100%;
       }
     }
   }
