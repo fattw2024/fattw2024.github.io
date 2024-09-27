@@ -1,22 +1,19 @@
 <template>
   <div class="container">
     <div class="sponsors">
-      <div class="title">Sponsors</div>
-      <div class="list">
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/sigse.png" alt="sigse" />
+      <div class="title">
+        SUPPORTERS
+        <div>(pending)</div>
       </div>
-    </div>
-    <div class="supporter">
-      <div class="title">Supporter</div>
       <div class="list">
-        <img src="../assets/sigse.png" alt="sigse" />
+        <img class="item" src="../assets/sigse.png" alt="sigse" />
+        <div class="item">Company1</div>
+        <div class="item">Company2</div>
+        <div class="item">Company3</div>
+        <img class="item" src="../assets/huawei.jpg" alt="huawei" />
+        <div class="item">Company4</div>
+        <div class="item">Company5</div>
+        <div class="item">Company6</div>
       </div>
     </div>
   </div>
@@ -42,30 +39,26 @@
     margin-bottom: @gap;
     .title {
       .title();
+      div {
+        width: 100px;
+        margin: 0 auto;
+        text-align: center;
+        color: #d1d4e4;
+        border-bottom: solid 3px red;
+      }
     }
     .list {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: @gap;
       .item {
         flex: 1;
+        min-width: 200px;
+        border: solid 1px #d1d4e4;
+        padding: 20px 10px;
       }
       img {
-        width: 200px;
-      }
-    }
-  }
-  .supporter {
-    .title {
-      .title();
-    }
-    .list {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      img {
-        width: 350px;
+        object-fit: contain;
       }
     }
   }
