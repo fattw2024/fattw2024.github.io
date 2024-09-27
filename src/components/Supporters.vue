@@ -13,7 +13,7 @@
         <img class="item" src="../assets/huawei.png" alt="huawei" />
         <div class="item">Company4</div>
         <div class="item">Company5</div>
-        <div class="item">Company</div>
+        <div class="item">Company6</div>
       </div>
     </div>
   </div>
@@ -54,8 +54,9 @@
         flex: 0 0 25%;
         max-width: 25%;
         height: 150px;
+        line-height: 150px;
         border: solid 1px #e0e5fa;
-        padding: 30px;
+        padding: 10px 20px;
         cursor: pointer;
       }
       img {
