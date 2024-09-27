@@ -36,8 +36,10 @@
       <a class="link" href="mailto:FATTW2024@gmail.com"> FATTW2024@gmail.com</a> 
     </div>
   </div>
+  <supporters></supporters>
 </template>
 
+import Supporters from '../components/Supporters.vue'
 <style lang="less" scoped>
 .home {
   .pa {
