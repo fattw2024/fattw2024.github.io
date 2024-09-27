@@ -1,17 +1,10 @@
 <template>
   <el-affix>
-    <el-menu
-      class="menu"
-      mode="horizontal"
-      router
-      :default-active="route.path"
-    >
-      <div class="logo">
-        <img src="@/assets/image/logo.png" alt="FATTW 2024 Logo" class="logo-image">
-      </div>
+    <el-menu class="menu" mode="horizontal" router :default-active="route.path">
+      <img src="@/assets/image/logo.png" alt="FATTW 2024 Logo" class="logo-image" />
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
-        <el-menu-item index="/program">PROGRAM</el-menu-item>       
+        <el-menu-item index="/program">PROGRAM</el-menu-item>
         <el-menu-item index="/speakers">SPEAKERS</el-menu-item>
         <el-menu-item index="/committees">COMMITTEES</el-menu-item>
         <el-menu-item index="/live">LIVE</el-menu-item>
@@ -33,16 +26,10 @@ const route = useRoute()
   justify-content: space-between;
   align-items: center;
 
-  .logo {
-    height: 58px;
-    display: flex;
-    align-items: center;
-
-    .logo-image {
-      height: 40px; // 调整这个值以适应您的图片和设计需求
-      width: auto;
-      object-fit: contain;
-    }
+  .logo-image {
+    height: 40px; // 调整这个值以适应您的图片和设计需求
+    width: auto;
+    object-fit: contain;
   }
 
   .menu-right {
