@@ -13,7 +13,7 @@
         <img class="item" src="../assets/huawei.png" alt="huawei" />
         <div class="item">Company4</div>
         <div class="item">Company5</div>
-        <div class="item">Company6</div>
+        <div class="item">Company</div>
       </div>
     </div>
   </div>
