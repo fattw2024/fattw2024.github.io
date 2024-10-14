@@ -6,16 +6,12 @@
         <div>(pending)</div>
       </div>
       <div class="list">
-        <!-- <img class="item" src="../assets/sigse.png" alt="sigse" /> -->
-        <div class="item">Company1</div>
-        <div class="item">Company2</div>
-        <div class="item">Company3</div>
-        <div class="item">Company4</div>
-        <!-- <img class="item" src="../assets/huawei.png" alt="huawei" /> -->
-        <div class="item">Company5</div>
-        <div class="item">Company6</div>
-        <div class="item">Company7</div>
-        <div class="item">Company8</div>
+        <img class="item" src="../assets/sigse.png" alt="sigse" />
+        <img class="item" src="../assets/QIAN_LOGO.png" alt="QIAN" />
+        <img class="item" src="../assets/iWing_Corporation_Logo.png" alt="iWing_Corporation" />
+        <img class="item" src="../assets/Fujitsu.png" alt="Fujitsu" />
+        <img class="item" src="../assets/2021_tiwaki_logo_landscape_alpha.png" alt="2021_tiwaki_logo_landscape_alpha" />
+        <img class="item" src="../assets/huawei.png" alt="huawei" />
       </div>
     </div>
   </div>
