@@ -2,7 +2,7 @@
   <div class="container">
     <div class="sponsors">
       <div class="title">
-        SUPPORTERS
+        SUPPORTERS tests
         <div>(pending)</div>
       </div>
       <div class="list">
