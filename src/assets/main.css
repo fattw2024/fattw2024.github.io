@@ -35,8 +35,9 @@ a,
   font-size: 1.8rem;
   text-align: justify;
 }
-.location{
+
+.location {
   color: rgb(255, 255, 255);
-    text-decoration: underline;
-    font-size: 14px;
+  text-decoration: underline;
+  font-size: 14px;
 }
