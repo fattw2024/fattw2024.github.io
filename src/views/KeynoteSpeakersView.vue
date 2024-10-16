@@ -72,7 +72,7 @@ export default {
         
         {
           name: 'Hiroshi Maruyama',
-          photo: 'tbd.png',
+          photo: 'hiroshi maruyama.jpg',
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',
@@ -99,9 +99,9 @@ export default {
         },
         {
           name: 'Fumio Machida',
-          photo: 'tbd.png',
+          photo: 'Fumio Machida.gif',
           title: 'TBD',
-          speech: 'Performance and Safety Evaluation for N-version Perception Systems',
+          keynote: 'Performance and Safety Evaluation for N-version Perception Systems',
           abstract: 'N-version Machine Learning (ML) system is an architectural approach to improve the reliability of outputs from ML systems. By using diverse ML models and multiple inputs, the system can detect prediction errors and prevent the system from producing harmful outputs. However, other dependability aspects, such as performance and safety, need to be considered together in practical application system design. This talk first introduces how N-version ML systems can improve the reliability of ML systems outputs and then discusses how performance and safety are affected by redundant execution and configurations. The talk will give an example of performance and safety evaluation results for a traffic sign classification system and an object detection system for an autonomous vehicle.',
           bio: 'Fumio Machida (Senior Member, IEEE) is an associate professor with the Computer Science Department, University of Tsukuba. Before, he was a principal researcher with NEC Corporation. He was a visiting scholar with the Department of Electrical and Computer Engineering, Duke University in 2010. He was a recipient of the young scientists prize of Japan in 2014. His research interests include modeling and analysis of system dependability, software aging and rejuvenation, and reliability of machine learning systems. He is a member of the ACM.(Based ondocument publishedon 16 June 2023).'
         },
@@ -138,7 +138,7 @@ export default {
         },
         {
           name: 'Fuyuki Ishikawa',
-          photo: 'tbd.png',
+          photo: 'Fuyuki Ishikawa.jpg',
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',
@@ -155,7 +155,7 @@ export default {
         },
         {
           name: 'Naoyasu Ubayashi',
-          photo: 'tbd.png',
+          photo: 'Naoyasu Ubayashi.jpg',
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',
@@ -163,7 +163,7 @@ export default {
         },
         {
           name: 'Shogo Tokui',
-          photo: 'tbd.png',
+          photo: 'Shogo Tokui.jpg',
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',
@@ -197,7 +197,7 @@ export default {
         },
         {
           name: 'Nobukazu Yoshioka',
-          photo: 'tbd.png',
+          photo: 'Nobukazu Yoshioka.jpg',
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',

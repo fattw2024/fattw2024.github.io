@@ -2,6 +2,7 @@
   <div class="committees">
     <div class="title1 font-merri">Organizing Committee</div>
     <div class="title2 section-title">General Chair:</div>
+    <img src="../assets/image/photos/Hironori_Washizaki.jpg" style="width:200px;height:220px;" alt="">
     <p class="pa-header p">Hironori Washizaki, Waseda University, Japan</p>
 
     <div class="title2 section-title">Committee:</div>

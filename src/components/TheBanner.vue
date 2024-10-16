@@ -41,7 +41,7 @@
     &::before {
       content: '';
       display: block;
-      // background-color: rgba(33, 33, 33, 1);
+      background-color: rgba(33, 33, 33, 1);
       position: absolute;
       left: 0;
       right: 0;
