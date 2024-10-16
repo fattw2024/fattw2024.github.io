@@ -1,7 +1,7 @@
 <template>
   <el-affix>
     <el-menu class="menu" mode="horizontal" router :default-active="route.path">
-      <img src="@/assets/image/logo.png" alt="FATTW 2024 Logo" class="logo-image" />
+      <img src="@/assets/image/FATTW_LOGO_20241011_clear01.png" alt="FATTW 2024 Logo" class="logo-image" />
       <div class="menu-right">
         <el-menu-item index="/">HOME</el-menu-item>
         <el-menu-item index="/program">PROGRAM</el-menu-item>

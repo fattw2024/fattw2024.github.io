@@ -3,7 +3,6 @@
     <div class="sponsors">
       <div class="title">
         SUPPORTERS
-        <div>(pending)</div>
       </div>
       <div class="list">
         <img class="item" src="../assets/sigse.png" alt="sigse" />
@@ -12,6 +11,7 @@
         <img class="item" src="../assets/Fujitsu.png" alt="Fujitsu" />
         <img class="item" src="../assets/2021_tiwaki_logo_landscape_alpha.png" alt="2021_tiwaki_logo_landscape_alpha" />
         <img class="item" src="../assets/huawei.png" alt="huawei" />
+        <div class="item" src=""/>
       </div>
     </div>
   </div>
