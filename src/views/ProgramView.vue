@@ -27,7 +27,7 @@
         </tr>
         <tr>
           <td class="center">10:50-11:20</td>
-          <td style="background-color: #c39dc3" colspan="3" class="center">Taking Photo & Coffee Break</td>
+          <td style=" " colspan="3" class="center">Taking Photo & Coffee Break</td>
         </tr>
 
         <tr>
@@ -48,7 +48,7 @@
         </tr>
         <tr>
           <td class="center">12:30-14:00</td>
-          <td style="background-color: #c39dc3" colspan="3" class="center">Lunch</td>
+          <td style=" " colspan="3" class="center">Lunch</td>
         </tr>
         <tr>
           <td rowspan="4" class="center">14:00-16:00</td>
@@ -79,7 +79,7 @@
         </tr>
         <tr>
           <td class="center">16:00-16:30</td>
-          <td style="background-color: #c39dc3" class="center" colspan="3">Lunch Break</td>
+          <td style=" " class="center" colspan="3">Lunch Break</td>
         </tr>
         <tr>
           <td rowspan="5" class="center">16:30-18:50</td>
@@ -105,7 +105,7 @@
         </tr>
         <tr>
           <td class="center">18:50-21:20</td>
-          <td style="background-color: #c39dc3" class="center" colspan="3">Dinner Reception</td>
+          <td style=" " class="center" colspan="3">Dinner Reception</td>
         </tr>
       </tbody>
     </table>
@@ -141,7 +141,7 @@
         </tr>
         <tr>
           <td class="center">11:00-11:30</td>
-          <td style="background-color: #c39dc3" class="center" colspan="3">Coffee Break</td>
+          <td style=" " class="center" colspan="3">Coffee Break</td>
         </tr>
         <tr>
           <td rowspan="5" class="center">10:40-13:05</td>
@@ -170,7 +170,7 @@
 
         <tr>
           <td class="center">13:05-14:15</td>
-          <td class="center" style="background-color: #c39dc3" colspan="3">Lunch</td>
+          <td class="center" style=" " colspan="3">Lunch</td>
         </tr>
       </tbody>
     </table>
@@ -238,7 +238,7 @@ table {
   .date {
     font-weight: bold;
     line-height: 4.5rem;
-    background-color: #64076dfb; // 更改为深蓝色
+    background-color: #d2497efb; // 更改为深蓝色
     color: #ffffff; // 添加白色文字以提高可读性
     padding: 0 1rem;
     margin-top: 2rem;
@@ -256,7 +256,7 @@ table {
   }
 
   :deep(.rest) {
-    background-color: #c39dc3;
+     ;
   }
   :deep(.multiple-events) {
     background-color: #f0f0f0;
