@@ -8,7 +8,8 @@
       Join us for FATTW 2024, a premier event dedicated to the latest advancements and innovations
       in testing technology. In an era where software complexity is ever-increasing, the role of
       advanced testing technologies has never been more critical. This workshop is dedicated to
-      exploring the forefront of software testing innovations. We have invited many well-known experts and scholars from around the world to discuss the challenges, share the latest research results and explore future-oriented testing methods. This workshop covers a number of topics, including but not limited to quality assurance of AI systems, the future of AI in software testing and methods of evaluating intelligent systems. Participants will learn about latest practices from experts face-to-face, exchange their minds with top experts and connect with peers from different backgrounds.
+      exploring the forefront of software testing innovations. We have invited many well-known experts and scholars from around the world to discuss the challenges, share the latest research results and explore future-oriented testing methods. <br>
+      This workshop covers a number of topics, including but not limited to quality assurance of AI systems, the future of AI in software testing and methods of evaluating intelligent systems. Participants will learn about latest practices from experts face-to-face, exchange their minds with top experts and connect with peers from different backgrounds.
     </p>
 
     <div class="title2 section-title">Why Join us?</div>
@@ -17,7 +18,7 @@
       advanced testing technologies. Organized by a distinguished committee of professors from
       renowned Japanese universities, this workshop aims to explore cutting-edge advancements and
       practical applications in testing technologies, particularly in relation to Large Language
-      Models (LLM). Whether you are a senior testing engineer, a cross-domain expert interested in testing technologies or a newcomer to the industry, you can reap valuable information and inspire thinking about the development of testing technology.
+      Models (LLM).<br> Whether you are a senior testing engineer, a cross-domain expert interested in testing technologies or a newcomer to the industry, you can reap valuable information and inspire thinking about the development of testing technology.
     </p>
 
     <div class="title2 section-title">Topics of Interest:</div>
