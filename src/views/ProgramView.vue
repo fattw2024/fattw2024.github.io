@@ -5,7 +5,7 @@
       <thead>
         <tr>
           <th style="width:120px">Time</th>
-          <th>Schedule</th>
+          <th style="width:155px">Schedule</th>
           <th>Topics</th>
           <th style="width:220px">Speaker</th>
         </tr>
@@ -114,7 +114,7 @@
       <thead>
         <tr>
           <th style="width:120px">Time</th>
-          <th>Schedule</th>
+          <th style="width:155px">Schedule</th>
           <th>Topics</th>
           <th style="width:220px">Speaker</th>
         </tr>
@@ -140,7 +140,7 @@
           <td>Fumio Machida</td>
         </tr>
         <tr>
-          <td class="center">11:00-11:30</td>
+          <td class="center">10:10-10:40</td>
           <td style=" " class="center" colspan="3">Coffee Break</td>
         </tr>
         <tr>

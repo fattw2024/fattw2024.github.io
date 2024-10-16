@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="background"></div>
     <div class="text">
-      <!-- <h2 class="title font-lato">Future Advanced Testing Technology Workshop</h2>
+      <h2 class="title font-lato">Future Advanced Testing Technology Workshop</h2>
 
       <h4 class="subtitle">Testing Technology and Practice in the age of LLM</h4>           
       <div class="tip font-merri">Tokyo, Japan, November 1st – 2nd, 2024</div>
@@ -11,7 +11,7 @@
         <a target="_blank" href="https://www.newotani.co.jp/en/makuhari/" class="location"
           >Hotel New Otani Makuhari</a
         >
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -36,7 +36,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/02_naname.jpg') no-repeat center / cover;
+    background: url('@/assets/image/head.jpg') no-repeat center / cover;
 
     &::before {
       content: '';

@@ -14,7 +14,7 @@
         <div class="speaker-info">
           <h2 class="speaker-name">{{ speaker.name }}</h2>
           <!-- <p><span class="bold">Title:</span> {{ speaker.title }}</p> -->
-          <p><span class="bold">Keynotes:</span> {{ speaker.keynote }}</p>
+          <p><span class="bold">Keynotes:</span> <span class="bolder">{{ speaker.keynote }}</span> </p>
           <p>
             <span class="bold">Abstract:</span> <span class="italic">{{ speaker.abstract }}</span>
           </p>
@@ -39,7 +39,7 @@
         <div class="speaker-info">
           <h2 class="speaker-name">{{ speaker.name }}</h2>
           <!-- <p><span class="bold">Title:</span> {{ speaker.title }}</p> -->
-          <p><span class="bold">Speech:</span> {{ speaker.speech }}</p>
+          <p><span class="bold">Speech:</span> <span class="bolder">{{ speaker.speech }}</span></p>
           <p>
             <span class="bold">Abstract:</span> <span class="italic">{{ speaker.abstract }}</span>
           </p>
@@ -47,7 +47,7 @@
       </div>
       <!-- 演讲者简历 -->
       <div class="speaker-bio">
-        <p><span class="bold">Bio:</span> {{ speaker.bio }}</p>
+        <p><span class="bold">Bio:</span> <span>{{ speaker.bio }}</span></p>
       </div>
       <!-- 如果不是最后一个演讲者，添加分隔线 -->
       <el-divider v-if="index < speechs.length - 1" />
@@ -115,7 +115,7 @@ export default {
           title: 'TBD',
           speech: 'Theories and algorithms of machine learning',
           abstract:
-            "'The safe deployment of AI systems in the real world is a pressing challenge today. From the theoretical perspective of machine learning, we address this challenge by developing reliable machine learning algorithms from imperfect information. In this talk, I first give an overview of our recent research on machine learning from weak supervision, noisy labels, and biased data. Then, I discuss how machine learning research should be further extended in the era of large foundation models",
+            "The safe deployment of AI systems in the real world is a pressing challenge today. From the theoretical perspective of machine learning, we address this challenge by developing reliable machine learning algorithms from imperfect information. In this talk, I first give an overview of our recent research on machine learning from weak supervision, noisy labels, and biased data. Then, I discuss how machine learning research should be further extended in the era of large foundation models",
           bio: 'The safe deployment of AI systems in the real world is a pressing challenge today. From the theoretical perspective of machine learning, we address this challenge by developing reliable machine learning algorithms from imperfect information. In this talk, I first give an overview of our recent research on machine learning from weak supervision, noisy labels, and biased data. Then, I discuss how machine learning research should be further extended in the era of large foundation models'
         },
         {
@@ -175,7 +175,7 @@ export default {
           title: 'TBD',
           speech: 'TBD',
           abstract: 'TBD',
-          bio: 'Dr. Wan received a doctorate degree in EE from Tsinghua University in 2012 and visited UC Berkeley EECS. Since joining Huawei in 2016, she has been engaged in intelligent auxiliary test technology exploration, engineering tool implementation planning and design, and led the team to focus on LLM&ML intelligent auxiliary test design, system test code generation, and all-scenario independent test of API interfaces. In the direction of intelligent demarcation and RCA of test failures, she successfully incubated and applied multiple intelligent test services on a large scale. She won the Presidents Individual Award of 2012 Laboratories, Gold Medal Team, Presidents Award of Optical Product Line, Presidents Award of Digital Energy, Presidents Award of R&D Tools, and Outstanding Individual of Software Engineering Capability Improvement General Team. She has won Huawei Pirates Major Test Technology Breakthrough Award for multiple times. She has served as the special producer of AiDD Summit.'
+          bio: 'Dr. Wan received a doctorate degree in EE from Tsinghua University in 2012 and visited UC Berkeley EECS. Since joining Huawei in 2016, she has been engaged in intelligent auxiliary test technology exploration, engineering tool implementation planning and design, and led the team to focus on LLM&ML intelligent auxiliary test design, system test code generation, and all-scenario independent test of API interfaces. In the direction of intelligent demarcation and RCA of test failures, she successfully incubated and applied multiple intelligent test services on a large scale.She has served as the special producer of AiDD Summit.'
         },
         {
           name: 'Shaukat Ali',
@@ -218,6 +218,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.bolder {
+  font-weight: bolder;
+}
 .keynote-speakers {
   color: #333;
   font-family: Arial, sans-serif;
@@ -231,6 +234,7 @@ export default {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     text-align: center;
+    margin-top: 50px;
   }
 
   // 每个演讲者部分的样式
@@ -261,7 +265,7 @@ export default {
     flex: 1;
     p {
       margin-bottom: 0.5rem;
-      line-height: 1.6;
+      line-height: 1.4;
     }
   }
 
