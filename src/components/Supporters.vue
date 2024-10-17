@@ -10,8 +10,8 @@
         <img class="item" src="../assets/iWing_Corporation_Logo.png" alt="iWing_Corporation" />
         <img class="item" src="../assets/Fujitsu.png" alt="Fujitsu" />
         <img class="item" src="../assets/2021_tiwaki_logo_landscape_alpha.png" alt="2021_tiwaki_logo_landscape_alpha" />
-        <img class="item" src="../assets/huawei.png" alt="huawei" />
-        <div class="item" src=""/>
+        <img class="item" src="../assets/HITACHI_LOGO.png" alt="hitachi" />
+        <img class="item" src="../assets/huawei.jpg" alt="huawei" />
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@
 @gap: 15px;
 .container {
   color: #000;
-  background-color: #f6f7fd;
+  background-color: #ffffff;
   font-size: 20px;
   margin-top: 30px;
   padding: @gap;
@@ -51,8 +51,8 @@
       .item {
         flex: 0 0 25%;
         max-width: 25%;
-        height: 150px;
-        line-height: 150px;
+        height: 250px;
+        line-height: 300px;
         border: solid 1px #e0e5fa;
         padding: 10px 20px;
         cursor: pointer;
