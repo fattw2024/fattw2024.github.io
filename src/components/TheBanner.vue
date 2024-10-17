@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="background"></div>
-    <!-- <div class="text">
+    <div class="text">
       <h2 class="title font-lato">Future Advanced Testing Technology Workshop</h2>
 
       <h4 class="subtitle">Testing Technology and Practice in the age of LLM</h4>           
@@ -12,7 +12,7 @@
           >Hotel New Otani Makuhari</a
         >
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 
 <style lang="less" scoped>
 .banner {
-  height: 24rem;
+  height: 30rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -36,15 +36,12 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/Head_Banner.jpeg') no-repeat center;
-    background-size: contain;
-    background-position: center 0px;
-
-
+    background: url('@/assets/image/head.jpg') no-repeat center;
+    background-size: cover;
     &::before {
       content: '';
       display: block;
-      // background-color: rgba(33, 33, 33, 1);
+      background-color: rgba(33, 33, 33, 1);
       position: absolute;
       left: 0;
       right: 0;
