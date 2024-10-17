@@ -140,9 +140,9 @@ export default {
           name: 'Fuyuki Ishikawa',
           photo: 'Fuyuki Ishikawa.jpg',
           title: 'TBD',
-          speech: 'TBD',
-          abstract: 'TBD',
-          bio: 'Fuyuki Ishikawa is currently an Associate Professor with Information Systems Architecture Science Research Division and a Deputy Director with GRACE Center, National Institute of Informatics, Tokyo, Japan. His research interests include dependability of advanced software systems, including testing and verification techniques for autonomous driving systems and machine learning-based systems.(Based on document publishedon 5 July 2022).'
+          speech: 'Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM',
+          abstract: 'As a specific technical direction of "testing for AI" and "AI for testing", we overview our research on a search-based approach to engineering of automated driving systems. We have intensively worked on search-based test generation techniques for the controller function while we also worked on search-based repair techniques for the perception function. We review the explicit or implicit limitations, and opportunities brought by LLM, or combining LLM with other symbolic/formal/quantifiable approaches.',
+          bio: 'Fuyuki Ishikawa is Associate Professor at National Institute of Informatics and Sokendai University, Japan. His research interests include testing, formal methods, and search-based software engineering especially for AI and smart cyber-physical systems. He has intensive collaboration with the Japanese industry regarding AI for testing/quality/trust and testing/quality/trust of AI. He received IPSJ/IEEE Computer Society Young Researcher Award 2020, and jointly Award for Science and Technology (Research Category) by the Minister of MEXT.'
         },
         {
           name: 'Daisuke Shimbara',

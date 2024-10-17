@@ -74,7 +74,7 @@
           <td>Hussein Al Osman</td>
         </tr>
         <tr>
-          <td>TBD [20+10mins]</td>
+          <td>Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM[20+10mins]</td>
           <td>Fuyuki Ishikawa</td>
         </tr>
         <tr>

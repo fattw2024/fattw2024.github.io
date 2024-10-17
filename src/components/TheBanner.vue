@@ -1,18 +1,18 @@
 <template>
   <div class="banner">
     <div class="background"></div>
-    <div class="text">
+    <!-- <div class="text">
       <h2 class="title font-lato">Future Advanced Testing Technology Workshop</h2>
 
       <h4 class="subtitle">Testing Technology and Practice in the age of LLM</h4>           
-      <div class="tip font-merri">Tokyo, Japan, November 1st – 2nd, 2024</div>
+      <div class="tip font-merri">Tokyo, Japan, November 1st - 2nd, 2024</div>
       <div class="tip font-merri">
         <el-icon><Location /></el-icon>
         <a target="_blank" href="https://www.newotani.co.jp/en/makuhari/" class="location"
           >Hotel New Otani Makuhari</a
         >
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -20,7 +20,7 @@
 
 <style lang="less" scoped>
 .banner {
-  height: 30rem;
+  height: 24rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -36,12 +36,15 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: url('@/assets/image/head.jpg') no-repeat center / cover;
+    background: url('@/assets/image/Head_Banner.jpeg') no-repeat center;
+    background-size: contain;
+    background-position: center 0px;
+
 
     &::before {
       content: '';
       display: block;
-      background-color: rgba(33, 33, 33, 1);
+      // background-color: rgba(33, 33, 33, 1);
       position: absolute;
       left: 0;
       right: 0;
