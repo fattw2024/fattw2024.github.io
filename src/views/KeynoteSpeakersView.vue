@@ -113,7 +113,7 @@ export default {
           name: 'Masashi Sugiyama',
           photo: 'Masashi Sugiyama.jpg',
           title: 'TBD',
-          speech: 'Theories and algorithms of machine learning',
+          speech: 'Reliable Machine Learning from Imperfect Information: Recent Advances and Future Challenges',
           abstract:
             "The safe deployment of AI systems in the real world is a pressing challenge today. From the theoretical perspective of machine learning, we address this challenge by developing reliable machine learning algorithms from imperfect information. In this talk, I first give an overview of our recent research on machine learning from weak supervision, noisy labels, and biased data. Then, I discuss how machine learning research should be further extended in the era of large foundation models",
           bio: 'The safe deployment of AI systems in the real world is a pressing challenge today. From the theoretical perspective of machine learning, we address this challenge by developing reliable machine learning algorithms from imperfect information. In this talk, I first give an overview of our recent research on machine learning from weak supervision, noisy labels, and biased data. Then, I discuss how machine learning research should be further extended in the era of large foundation models'
