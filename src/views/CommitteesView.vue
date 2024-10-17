@@ -2,15 +2,15 @@
   <div class="committees">
     <div class="title1 font-merri">Organizing Committee</div>
     <div class="title2 section-title">General Chair:</div>
-    <img src="../assets/image/photos/Hironori_Washizaki.jpg" style="width:200px;height:220px;" alt="">
+    <img src="../assets/image/photos/Hironori_Washizaki.jpg" style="width:150px;height:160px;" alt="">
     <p class="pa-header p">Hironori Washizaki, Waseda University, Japan</p>
 
     <div class="title2 section-title">Committee:</div>
-    <img src="../assets/image/photos/Naoyasu Ubayashi.jpg" style="width:200px;height:220px;" alt="">
+    <img src="../assets/image/photos/Naoyasu Ubayashi.jpg" style="width:150px;height:175px;" alt="">
     <p class="pa-header p">Naoyasu Ubayashi, Waseda University, Japan</p>
-    <img src="../assets/image/photos/Nobukazu Yoshioka.jpg" style="width:200px;height:220px;" alt="">
+    <img src="../assets/image/photos/Nobukazu Yoshioka.jpg" style="width:150px;height:160px;" alt="">
     <p class="pa-content p">Nobukazu Yoshioka, QAML Inc. / Waseda University, Japan</p>
-        <img src="../assets/image/photos/tbd.png" style="width:200px;height:220px;" alt="">
+        <img src="../assets/image/photos/Hironori Takeuchi.jpg" style="width:150px;height:175px;" alt="">
     <p class="pa-content p">Hironori Takeuchi, Musashi University, Japan</p>
 
     <div class="title2 section-title">Contact Us</div>
