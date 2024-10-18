@@ -92,7 +92,7 @@
           <td>Naoyasu Ubayashi</td>
         </tr>
         <tr>
-          <td>TEST4AI/AI4TEST Practice 2[15+10mins]</td>
+          <td>Automated Test Specification Updates using LLM[15+10mins]</td>
           <td>Shogo Tokui</td>
         </tr>
         <tr>

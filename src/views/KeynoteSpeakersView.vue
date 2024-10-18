@@ -165,9 +165,9 @@ export default {
           name: 'Shogo Tokui',
           photo: 'Shogo Tokui.jpg',
           title: 'TBD',
-          speech: 'TBD',
-          abstract: 'TBD',
-          bio: ''
+          speech: 'Automated Test Specification Updates using LLM',
+          abstract: 'In mission-critical projects, software engineers require comprehensive, high-quality testing to minimize post-release failures. To achieve this, detailed test specifications are created to ensure that the developed system is consistent with the design documents. Especially in large projects, where a huge amount of Excel design documentation exists, it often requires several months to produce test specifications. In this presentation, we will present our approach to automate test specification updates in migration projects using LLM. By leveraging LLM to understand and analyze design documents, we can automatically update test specifications.',
+          bio: 'Shogo Tokui focuses on advancing software engineering techniques through the application of generative AI and the management of code clones. He completed his Master\'s degree at the Graduate School of Information Science and Technology, Osaka University in 2019 and is currently pursuing a Ph.D. at the same institution. Additionally, he serves as a researcher at Fujitsu Limited. His research aims to improve software testing quality and development efficiency by leveraging cutting-edge AI technologies.'
         },
         {
           name: 'Ruiyuan Wan',
