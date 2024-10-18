@@ -88,7 +88,7 @@
           <td>Daisuke Shimbara</td>
         </tr>
         <tr>
-          <td>TEST4AI/AI4TEST Practice 1[15+10mins]</td>
+          <td>Metrics-based Repair/Break Prediction for Effective DNN Testing[15+10mins]</td>
           <td>Naoyasu Ubayashi</td>
         </tr>
         <tr>

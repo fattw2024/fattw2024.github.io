@@ -157,9 +157,9 @@ export default {
           name: 'Naoyasu Ubayashi',
           photo: 'Naoyasu Ubayashi.jpg',
           title: 'TBD',
-          speech: 'TBD',
-          abstract: 'TBD',
-          bio: 'Naoyasu Ubayashi is a professor in Global Center for Science and Engineering, Faculty of Science and Engineering at Waseda University. He is also a Professor Emeritus, Kyushu University. He received his PhD from The University of Tokyo. He is a member of ACM SIGSOFT, IEEE Computer Society, and Information Processing Society of Japan (IPSJ). He received "IPSJ SIG Research Award 2003" from IPSJ. (based on homepage.)'
+          speech: 'Metrics-based Repair/Break Prediction for Effective DNN Testing',
+          abstract: 'Effective testing of deep neural network (DNN) models is a key research area in the development of machine learning systems. In this talk, I will present a method for predicting whether a defective DNN model can be repaired, based on various metric values. This approach allows for the omission of tests when the likelihood of successful repair is low, thereby reducing overall testing costs',
+          bio: 'Naoyasu Ubayashi is a professor emeritus at Kyushu University and a professor at Waseda University. He led the POSL (Principles Of Software Engineering and Programming Languages) research group at Kyushu University. Before joining Kyushu University, he worked for Toshiba Corporation and Kyushu Institute of Technology. He received his Ph.D. from the University of Tokyo. He was the general/organizing chair of AOSD 2013, ASPEC 2018, and MODELS 2021. He is a member of ACM SIGSOFT, IEEE Computer Society, and Information Processing Society of Japan (IPSJ). He is also a Fellow of the IPSJ.'
         },
         {
           name: 'Shogo Tokui',
