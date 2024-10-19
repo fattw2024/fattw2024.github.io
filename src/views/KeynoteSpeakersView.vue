@@ -170,14 +170,6 @@ export default {
           bio: 'Shogo Tokui focuses on advancing software engineering techniques through the application of generative AI and the management of code clones. He completed his Master\'s degree at the Graduate School of Information Science and Technology, Osaka University in 2019 and is currently pursuing a Ph.D. at the same institution. Additionally, he serves as a researcher at Fujitsu Limited. His research aims to improve software testing quality and development efficiency by leveraging cutting-edge AI technologies.'
         },
         {
-          name: 'Ruiyuan Wan',
-          photo: 'Ruiyuan Wan.png',
-          title: 'TBD',
-          speech: 'TBD',
-          abstract: 'TBD',
-          bio: 'Dr. Wan received a doctorate degree in EE from Tsinghua University in 2012 and visited UC Berkeley EECS. Since joining Huawei in 2016, she has been engaged in intelligent auxiliary test technology exploration, engineering tool implementation planning and design, and led the team to focus on LLM&ML intelligent auxiliary test design, system test code generation, and all-scenario independent test of API interfaces. In the direction of intelligent demarcation and RCA of test failures, she successfully incubated and applied multiple intelligent test services on a large scale.She has served as the special producer of AiDD Summit.'
-        },
-        {
           name: 'Shaukat Ali',
           photo: 'Shaukat Ali.jpg',
           title: 'TBD',

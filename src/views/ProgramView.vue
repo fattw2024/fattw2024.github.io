@@ -82,8 +82,8 @@
           <td style=" " class="center" colspan="3">Lunch Break</td>
         </tr>
         <tr>
-          <td rowspan="5" class="center">16:30-18:50</td>
-          <td rowspan="5" class="center">Session 2: Testing & AI Practice</td>
+          <td rowspan="4" class="center">16:30-18:50</td>
+          <td rowspan="4" class="center">Session 2: Testing & AI Practice</td>
           <td>AI quality management and issues in Hitachi DX Engineering Research[15+10mins]</td>
           <td>Daisuke Shimbara</td>
         </tr>
@@ -94,10 +94,6 @@
         <tr>
           <td>Automated Test Specification Updates using LLM[15+10mins]</td>
           <td>Shogo Tokui</td>
-        </tr>
-        <tr>
-          <td>Rethinking of AI4TEST and TEST4AI[15+10mins]</td>
-          <td>Ruiyuan Wan</td>
         </tr>
         <tr>
           <td>Panel 2: AI and Foundation Model-empowered Testing[40min]</td>
