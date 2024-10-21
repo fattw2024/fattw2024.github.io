@@ -22,7 +22,7 @@
           <td>Abdulmotaleb El Saddik</td>
         </tr>
         <tr>
-          <td>Keynotes 2: TBD[30mins]</td>
+          <td>Keynotes 2: Quality Assurance of AI-Based Systems [30mins]</td>
           <td>Hiroshi Maruyama</td>
         </tr>
         <tr>
@@ -34,16 +34,14 @@
           <td rowspan="2" class="center">11:20-12:30</td>
           <td rowspan="2" class="center">Keynotes</td>
           <td>
-            Keynotes 3: Testing AI: Navigating Complex Challenges, Approaches, and Future
-            Pathways[30mins]
+            Keynotes 3: Uncertainty-Assisted Testing and Trustworthy Decision Making with Machine Learning [30mins]
           </td>
-          <td>San Murugesan</td>
+          <td>Shervin Shirmohammadi</td>
         </tr>
         <tr>
-          <td>Panel 1: Quality Assurance and Trustworthiness of AI-based Systems [40mins]</td>
+          <td>Panel 1: AI and Foundation Model-empowered Testing [40mins]</td>
           <td>
-            Hironori Washizaki, Abdulmotaleb El Saddik, Hiroshi Maruyama, San Murugesan, Jianjun
-            Zhao
+           Hironori Washizaki, Abdulmotaleb El Saddik, Hiroshi Maruyama, Shervin Shirmohammadi
           </td>
         </tr>
         <tr>
@@ -51,53 +49,50 @@
           <td style=" " colspan="3" class="center">Lunch</td>
         </tr>
         <tr>
-          <td rowspan="4" class="center">14:00-16:00</td>
-          <td rowspan="4" class="center">Session 1: Testing & AI Research</td>
+          <td rowspan="3" class="center">14:00-15:30</td>
+          <td rowspan="3" class="center">Session 1 Testing & AI Research & Practice</td>
           <td>
-            Reliable Machine Learning from Imperfect Information: Recent Advances and Future
-            Challenges[20+10mins]
+            Testing AI: Navigating Complex Challenges, Approaches, and Future Pathways [20+10mins]
           </td>
-          <td>Masashi Sugiyama</td>
+          <td>San Murugesan</td>
         </tr>
         <tr>
           <td>
-            Towards Reliable AI-Enabled Cyber-Physical Systems: Testing, Debugging and
-            Beyond[20+10mins]
+            Metrics-based Repair/Break Prediction for Effective DNN Testing [20+10mins]
+          </td>
+          <td>Naoyasu Ubayashi</td>
+        </tr>
+        <tr>
+          <td>
+            Towards Reliable AI-Enabled Cyber-Physical Systems: Testing, Debugging, and Beyond [20+10mins]
           </td>
           <td>Jianjun Zhao</td>
         </tr>
         <tr>
-          <td>
-            Leveraging LLMs in Software Testing: Current State-of-the-Art and Future
-            Directions[20+10mins]
-          </td>
-          <td>Hussein Al Osman</td>
-        </tr>
-        <tr>
-          <td>Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM[20+10mins]</td>
-          <td>Fuyuki Ishikawa</td>
-        </tr>
-        <tr>
-          <td class="center">16:00-16:30</td>
+          <td class="center">15:30-16:00</td>
           <td style=" " class="center" colspan="3">Lunch Break</td>
         </tr>
         <tr>
-          <td rowspan="4" class="center">16:30-18:50</td>
-          <td rowspan="4" class="center">Session 2: Testing & AI Practice</td>
-          <td>AI quality management and issues in Hitachi DX Engineering Research[15+10mins]</td>
+          <td rowspan="5" class="center">16:00-18:40</td>
+          <td rowspan="5" class="center">Session 2: Testing & AI Practice</td>
+          <td>Towards Trustworthy Assurance of AI Systems in the LLM Era [20+10mins]</td>
+          <td>Lei Ma</td>
+        </tr>
+        <tr>
+          <td>AI quality management and issues in Hitachi DX Engineering Research [20+10mins]</td>
           <td>Daisuke Shimbara</td>
         </tr>
         <tr>
-          <td>Metrics-based Repair/Break Prediction for Effective DNN Testing[15+10mins]</td>
-          <td>Naoyasu Ubayashi</td>
+          <td>Leveraging LLMs in Software Testing: Current State-of-the-Art and Future Directions [20+10mins]</td>
+          <td>Hussein Al Osman</td>
         </tr>
-        <tr>
-          <td>Automated Test Specification Updates using LLM[15+10mins]</td>
+                <tr>
+          <td>Automated Test Specification Updates using LLM [20+10mins]</td>
           <td>Shogo Tokui</td>
         </tr>
         <tr>
-          <td>Panel 2: AI and Foundation Model-empowered Testing[40min]</td>
-          <td>Masashi Sugiyama, Hussein Al Osman, Daisuke Shinbara, Shogo Tokui, Ruiyuan Wan</td>
+          <td>Panel 2: Quality Assurance and Trustworthiness of AI-based Systems [40min]</td>
+          <td>San Murugesan, Naoyasu Ubayashi, Jianjun Zhao, Lei Ma, Daisuke Shinbara</td>
         </tr>
         <tr>
           <td class="center">18:50-21:20</td>
@@ -124,10 +119,9 @@
         </tr>
         <tr>
           <td>
-            Keynotes 1: Uncertainty-Assisted Testing and Trustworthy Decision Making with Machine
-            Learning[30mins]
+            Keynotes 1: Reliable Machine Learning from Imperfect Information: Recent Advances and Future Challenges [30mins]
           </td>
-          <td>Shervin Shirmohammadi</td>
+          <td>Masashi Sugiyama</td>
         </tr>
         <tr>
           <td>
@@ -141,23 +135,23 @@
         </tr>
         <tr>
           <td rowspan="5" class="center">10:40-13:05</td>
-          <td rowspan="5" class="center">Session 3: Evaluation for intelligent system</td>
+          <td rowspan="5" class="center">Session 3: Evaluation for intelligent System</td>
+          <td>Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM [20+10mins]</td>
+          <td>Fuyuki Ishikawa</td>
+        </tr>
+        <tr>
           <td>AI Foundation Models for Cyber-Physical Systems Testing [20+10mins]</td>
           <td>Shaukat Ali</td>
         </tr>
         <tr>
-          <td>Towards Trustworthy Assurance of AI Systems in the LLM Era[20+10mins]</td>
-          <td>Lei Ma</td>
-        </tr>
-        <tr>
-          <td>TBD[20+10mins]</td>
+          <td>Leveraging cutting-edge technology to deliver high-value, high-quality AI systems [20+10mins]</td>
           <td>Nobukazu Yoshioka</td>
         </tr>
         <tr>
           <td>
             Panel 3: Future Trends and Technological Innovations of AI System Evaluation [40min]
           </td>
-          <td>Shervin Shirmohammadi, Fumio Machida, Shaukat Ali , Lei Ma, Nobukazu Yoshioka</td>
+          <td>Fumio Machida, Fuyuki Ishikawa, Shaukat Ali, Nobukazu Yoshioka</td>
         </tr>
         <tr>
           <td>Closing Speech [15mins]</td>
@@ -165,7 +159,7 @@
         </tr>
 
         <tr>
-          <td class="center">13:05-14:15</td>
+          <td class="center">13:10-14:20</td>
           <td class="center" style=" " colspan="3">Lunch</td>
         </tr>
       </tbody>
