@@ -70,11 +70,11 @@
         </tr>
         <tr>
           <td class="center">15:30-16:00</td>
-          <td style=" " class="center" colspan="3">Lunch Break</td>
+          <td style=" " class="center" colspan="3">Coffee Break</td>
         </tr>
         <tr>
           <td rowspan="5" class="center">16:00-18:40</td>
-          <td rowspan="5" class="center">Session 2: Testing & AI Practice</td>
+          <td rowspan="5" class="center">Session 1 Testing & AI Research & Practice</td>
           <td>Towards Trustworthy Assurance of AI Systems in the LLM Era [20+10mins]</td>
           <td>Lei Ma</td>
         </tr>
@@ -135,7 +135,7 @@
         </tr>
         <tr>
           <td rowspan="5" class="center">10:40-13:05</td>
-          <td rowspan="5" class="center">Session 3: Evaluation for intelligent System</td>
+          <td rowspan="5" class="center">Session 2 Evaluation for intelligent system</td>
           <td>Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM [20+10mins]</td>
           <td>Fuyuki Ishikawa</td>
         </tr>
