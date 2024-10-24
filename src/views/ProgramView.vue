@@ -50,7 +50,7 @@
         </tr>
         <tr>
           <td rowspan="3" class="center">14:00-15:30</td>
-          <td rowspan="3" class="center">Session 1 Testing & AI Research & Practice</td>
+          <td rowspan="3" class="center">Session 1<br/> Testing & AI Research & Practice</td>
           <td>
             Testing AI: Navigating Complex Challenges, Approaches, and Future Pathways [20+10mins]
           </td>
@@ -74,7 +74,7 @@
         </tr>
         <tr>
           <td rowspan="5" class="center">16:00-18:40</td>
-          <td rowspan="5" class="center">Session 1 Testing & AI Research & Practice</td>
+          <td rowspan="5" class="center">Session 1 <br/>Testing & AI Research & Practice</td>
           <td>Towards Trustworthy Assurance of AI Systems in the LLM Era [20+10mins]</td>
           <td>Lei Ma</td>
         </tr>
@@ -135,7 +135,7 @@
         </tr>
         <tr>
           <td rowspan="5" class="center">10:40-13:05</td>
-          <td rowspan="5" class="center">Session 2 Evaluation for intelligent system</td>
+          <td rowspan="5" class="center">Session 2 <br/> Evaluation for intelligent system</td>
           <td>Testing and Repairing Technique for AI and by AI in Automated Driving Systems: Before and After LLM [20+10mins]</td>
           <td>Fuyuki Ishikawa</td>
         </tr>
