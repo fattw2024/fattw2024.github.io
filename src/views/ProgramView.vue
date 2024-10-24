@@ -92,7 +92,7 @@
         </tr>
         <tr>
           <td>Panel 2: Quality Assurance and Trustworthiness of AI-based Systems [40min]</td>
-          <td>San Murugesan, Naoyasu Ubayashi, Jianjun Zhao, Lei Ma, Daisuke Shinbara</td>
+          <td>San Murugesan, Naoyasu Ubayashi, Jianjun Zhao, Lei Ma, Daisuke Shimbara</td>
         </tr>
         <tr>
           <td class="center">18:50-21:20</td>
