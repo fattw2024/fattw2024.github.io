@@ -6,12 +6,12 @@
       </div>
       <div class="list">
         <img class="item" src="../assets/sigse.png" alt="sigse" />
-        <img class="item" src="../assets/QIAN_LOGO.png" alt="QIAN" />
-        <img class="item" src="../assets/iWing_Corporation_Logo.png" alt="iWing_Corporation" />
+        <img class="item" src="../assets/huawei.jpg" alt="huawei" />
+        <img class="item" src="../assets/HITACHI_LOGO.png" alt="hitachi" />
         <img class="item" src="../assets/Fujitsu.png" alt="Fujitsu" />
         <img class="item" src="../assets/2021_tiwaki_logo_landscape_alpha.png" alt="2021_tiwaki_logo_landscape_alpha" />
-        <img class="item" src="../assets/HITACHI_LOGO.png" alt="hitachi" />
-        <img class="item" src="../assets/huawei.jpg" alt="huawei" />
+        <img class="item" src="../assets/iWing_Corporation_Logo.png" alt="iWing_Corporation" />
+        <img class="item" src="../assets/QIAN_LOGO.png" alt="QIAN" />
       </div>
     </div>
   </div>
