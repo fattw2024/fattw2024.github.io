@@ -5,22 +5,27 @@
     
     <div class="zoom-section">
       <h2>Join Zoom Meeting</h2>
-      <a href="https://zoom.us/j/your-meeting-id" target="_blank" class="zoom-button">
-        Join Zoom Meeting
+      <a href="https://zoom.us/j/99437716717" target="_blank" class="zoom-button">
+        English Channel
       </a>
-      <div class="meeting-info">
+      <br/> 
+      <a href="https://zoom.us/j/94707227321" target="_blank" class="zoom-button">
+        Japanese Channel
+      </a>
+      <!-- <div class="meeting-info">
         <p><strong>Meeting ID:</strong> your-meeting-id</p>
         <p><strong>Passcode:</strong> your-passcode</p>
-      </div>
-      <p class="instructions">Click the button above to join the meeting, or use the Meeting ID and Passcode in your Zoom client.</p>
+      </div> -->
+      <p class="instructions">Click the button above to join the meeting.</p>
+      <!-- <p class="instructions">Click the button above to join the meeting, or use the Meeting ID and Passcode in your Zoom client.</p> -->
     </div>
 
-    <div class="schedule-section">
+    <!-- <div class="schedule-section">
       <h2>Session Schedule</h2>
       <p>Our live session is scheduled for:</p>
       <p><strong>Date:</strong> TBD</p>
       <p><strong>Time:</strong> TBD (Time Zone)</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
