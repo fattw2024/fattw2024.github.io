@@ -12,11 +12,15 @@
       <a href="https://zoom.us/j/94707227321" target="_blank" class="zoom-button">
         Japanese Channel
       </a>
+      <br/>
+      This live stream is valid only during this workshop session. Please select either Japanese or English channel. It will be a one-way streaming via Zoom's webinar system, that is, a viewing-only. Please note that you are not allowed to participate in sessions such as questions. 
+      <b>Recording videos, taking photo and screenshot is prohibited.</b>
       <!-- <div class="meeting-info">
         <p><strong>Meeting ID:</strong> your-meeting-id</p>
         <p><strong>Passcode:</strong> your-passcode</p>
       </div> -->
-      <p class="instructions">Click the button above to join the meeting.</p>
+            <br/>
+      <p class="instructions">Click the button above to join the living meeting. (No registration required)</p>
       <!-- <p class="instructions">Click the button above to join the meeting, or use the Meeting ID and Passcode in your Zoom client.</p> -->
     </div>
 
