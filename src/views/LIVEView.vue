@@ -6,7 +6,7 @@
     </div>
     <h1 style="margin-top:30px">FATTW 2024 Highlights Review</h1>
     <div class="zoom-section">
-      <video class="zoom-section-video" controls src="../assets/review.mp4"></video>
+      <video class="zoom-section-video" controls src="/review.mp4"></video>
     </div>
 
     <!-- <div class="schedule-section">
