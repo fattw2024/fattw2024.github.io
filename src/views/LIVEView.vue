@@ -1,10 +1,12 @@
 <template>
   <div class="live-view">
-    <h1>FATTW 2024 Live Session</h1>
-    <p>Welcome to our live session. Join us on Zoom to attend our conference.</p>
-    
+    <h1>FATTW 2024 Opening</h1>
     <div class="zoom-section">
       <video class="zoom-section-video" controls autoplay src="../assets/Opening video.mp4"></video>
+    </div>
+    <h1 style="margin-top:30px">FATTW 2024 Highlights Review</h1>
+    <div class="zoom-section">
+      <video class="zoom-section-video" controls src="../assets/review.mp4"></video>
     </div>
 
     <!-- <div class="schedule-section">
@@ -47,7 +49,7 @@ h2 {
   margin-top: 30px;
   background-color: #f8f8f8;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: auto;
 }
 .zoom-section-video {
@@ -58,7 +60,7 @@ h2 {
 .zoom-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #2D8CFF;
+  background-color: #2d8cff;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -68,7 +70,7 @@ h2 {
 }
 
 .zoom-button:hover {
-  background-color: #2681F2;
+  background-color: #2681f2;
   transform: translateY(-2px);
 }
 
