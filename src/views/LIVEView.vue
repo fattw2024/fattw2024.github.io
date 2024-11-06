@@ -2,11 +2,25 @@
   <div class="live-view">
     <h1>FATTW 2024 Opening</h1>
     <div class="zoom-section">
-      <video class="zoom-section-video" controls controlslist='nodownload' οncοntextmenu='return false' autoplay src="https://media.githubusercontent.com/media/fattw2024/fattw2024.github.io/refs/heads/main/docs/Opening.mp4?download=true"></video>
+      <video
+        ref="videoPlayer"
+        class="zoom-section-video"
+        controls
+        controlslist="nodownload"
+        @contextmenu.prevent
+        autoplay
+        src="https://media.githubusercontent.com/media/fattw2024/fattw2024.github.io/refs/heads/main/docs/Opening.mp4?download=true"
+      ></video>
     </div>
-    <h1 style="margin-top:30px">FATTW 2024 Highlights Review</h1>
+    <h1 style="margin-top: 30px">FATTW 2024 Highlights Review</h1>
     <div class="zoom-section">
-      <video class="zoom-section-video" controls controlslist='nodownload' οncοntextmenu='return false' src="https://media.githubusercontent.com/media/fattw2024/fattw2024.github.io/refs/heads/main/docs/review.mp4?download=true"></video>
+      <video
+        class="zoom-section-video"
+        controls
+        controlslist="nodownload"
+        @contextmenu.prevent
+        src="https://media.githubusercontent.com/media/fattw2024/fattw2024.github.io/refs/heads/main/docs/review.mp4?download=true"
+      ></video>
     </div>
 
     <!-- <div class="schedule-section">
