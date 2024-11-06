@@ -4,24 +4,7 @@
     <p>Welcome to our live session. Join us on Zoom to attend our conference.</p>
     
     <div class="zoom-section">
-      <h2>Join Zoom Meeting</h2>
-      <a href="https://zoom.us/j/99437716717" target="_blank" class="zoom-button">
-        English Channel
-      </a>
-      <br/> 
-      <a href="https://zoom.us/j/94707227321" target="_blank" class="zoom-button">
-        Japanese Channel
-      </a>
-      <br/>
-      This live stream is valid only during this workshop session. Please select either Japanese or English channel. It will be a one-way streaming via Zoom's webinar system, that is, a viewing-only. Please note that you are not allowed to participate in sessions such as questions. 
-      <b>Recording videos, taking photo and screenshot is prohibited.</b>
-      <!-- <div class="meeting-info">
-        <p><strong>Meeting ID:</strong> your-meeting-id</p>
-        <p><strong>Passcode:</strong> your-passcode</p>
-      </div> -->
-            <br/>
-      <p class="instructions">Click the button above to join the living meeting. (No registration required)</p>
-      <!-- <p class="instructions">Click the button above to join the meeting, or use the Meeting ID and Passcode in your Zoom client.</p> -->
+      <!-- <video class="zoom-section-video" controls autoplay src="./Opening.mp4"></video> -->
     </div>
 
     <!-- <div class="schedule-section">
@@ -62,10 +45,14 @@ h2 {
 
 .zoom-section {
   margin-top: 30px;
-  padding: 30px;
   background-color: #f8f8f8;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: auto;
+}
+.zoom-section-video {
+  width: 760px;
+  height: 100%;
 }
 
 .zoom-button {
