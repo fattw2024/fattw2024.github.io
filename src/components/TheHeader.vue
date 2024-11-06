@@ -18,7 +18,7 @@
         <el-menu-item index="/program">PROGRAM</el-menu-item>
         <el-menu-item index="/speakers">SPEAKERS</el-menu-item>
         <el-menu-item index="/committees">COMMITTEES</el-menu-item>
-        <el-menu-item index="/live">LIVE</el-menu-item>
+        <el-menu-item index="/live">REVIEW</el-menu-item>
         <!--<el-menu-item index="/attendee-guide">ATTENDEE GUIDE</el-menu-item>-->
       </div>
     </el-menu>
