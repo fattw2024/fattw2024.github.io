@@ -2,7 +2,7 @@
   <div class="live-view">
     <h1>FATTW 2024 Opening</h1>
     <div class="zoom-section">
-      <video class="zoom-section-video" controls autoplay src="../assets/Opening video.mp4"></video>
+      <video class="zoom-section-video" controls autoplay src="/Opening.mp4"></video>
     </div>
     <h1 style="margin-top:30px">FATTW 2024 Highlights Review</h1>
     <div class="zoom-section">
