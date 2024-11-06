@@ -4,7 +4,7 @@
     <p>Welcome to our live session. Join us on Zoom to attend our conference.</p>
     
     <div class="zoom-section">
-      <!-- <video class="zoom-section-video" controls autoplay src="./Opening.mp4"></video> -->
+      <video class="zoom-section-video" controls autoplay src="../assets/Opening video.mp4"></video>
     </div>
 
     <!-- <div class="schedule-section">
