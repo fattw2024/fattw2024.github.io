@@ -1,6 +1,10 @@
 <template>
   <div class="live-view">
-    <h1>FATTW 2024 Opening</h1>
+    <h1>FATTW 2024 Group Photo</h1>
+    <div class="zoom-section">
+    <img src="../assets/image/groupphotocopy.jpg" style="width:760px" alt="">
+    </div>
+    <h1 style="margin-top: 30px">FATTW 2024 Opening</h1>
     <div class="zoom-section">
       <video
         ref="videoPlayer"
