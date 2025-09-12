@@ -7,7 +7,7 @@
       <div class="list">
         <img class="item" src="../assets/sigse.png" alt="sigse" />
         <img class="item" src="../assets/huawei.jpg" alt="huawei" />
-        <img class="item" src="../assets/HITACHI_LOGO.png" alt="hitachi" />
+        <div class="item-hitachi">HITACHI, Ltd</div>
         <img class="item" src="../assets/Fujitsu.png" alt="Fujitsu" />
         <img class="item" src="../assets/2021_tiwaki_logo_landscape_alpha.png" alt="2021_tiwaki_logo_landscape_alpha" />
         <img class="item" src="../assets/iWing_Corporation_Logo.png" alt="iWing_Corporation" />
@@ -48,6 +48,19 @@
     .list {
       display: flex;
       flex-wrap: wrap;
+      .item-hitachi {
+        font-weight: 600;
+        font-size: 24px;
+        display: flex;
+        flex: 0 0 25%;
+        align-items: center;
+        justify-content: center;
+        max-width: 25%;
+        height: 250px;
+        border: solid 1px #e0e5fa;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
       .item {
         flex: 0 0 25%;
         max-width: 25%;
